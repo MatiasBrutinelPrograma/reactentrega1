@@ -36,3 +36,60 @@
     transform: rotate(360deg);
   }
 }
+
+
+.app {
+  text-align: center;
+  background-color: #fddfdf;
+}
+
+nav {
+  background-color: #ffadad;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin-right: 20px;
+}
+
+.cart-widget {
+  position: relative;
+}
+
+.cart-widget i {
+  font-size: 24px;
+  color: #ff6b6b;
+}
+
+.cart-icon {
+  font-size: 24px;
+  color: #ff6b6b;
+  /* Otros estilos personalizados */
+}
+
+
+.notification {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #ff6b6b;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+}
+
+.item-list-container {
+  background-color: #ffadad;
+  padding: 20px;
+  margin: 20px;
+}
+
+
